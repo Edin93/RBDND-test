@@ -1,0 +1,32 @@
+{
+  "name": "reactapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "flexbox-react": "^4.4.0",
+    "react": "^16.4.1",
+    "react-beautiful-dnd": "^7.1.3",
+    "react-dom": "^16.4.1",
+    "react-flex-material": "^1.1.0",
+    "react-flexbox": "^3.1.4",
+    "react-flexbox-layout": "^1.2.7",
+    "react-scripts": "1.1.1",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "author": "edin93",
+  "license": "ISC"
+}

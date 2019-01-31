@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.ActivityCardDesign {
+    background-color: #71CAC4;
+    border: 1px solid #8fcbe3;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0.2em;
+    margin-right: 0.2em;
+    border-radius: 2px;
+}
+
+.TaskCardDesign {
+    background-color: #E2E647;
+    border: 1px solid #e8cf01;
+    color: #635207;
+    text-align: left;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0.2em;
+    margin-right: 0.2em;
+    border-radius: 2px;
+}
+
+.StoryCardDesign {
+    background-color: #ffffff;
+    color: #4f4f4f;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1px 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+}
+
+.empty {
+    width: 102px;
+    height: 62px;
+}
+
+.cellwidth {
+    width: 100px;
+    margin: 5px;
+}
+
+.release {
+    position: sticky;
+    left: 0px;
+    background-color: #e5e9ef;
+    padding: 0.5em 0.25em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-top: 1px dashed grey;
+    width: 100%;
+    position: sticky;
+    left: 0px;
+}
+
+.contain {
+    margin-top: 20px;
+}
+
+.bounds {
+    background-color: #ddd;
+    height: 800px;
+}
+
+.range {
+    top: 10px;
+    right: 0;
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0px !important;
+    width: 100%;
+    height: 50px;
+    background: #191a1e;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+html {
+    overflow-y: hidden
+}
+
+.divun {
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    display: block;
+    max-height: 22vh;
+    min-height: 38px;
+}
+
+.divdeux {
+    overflow: scroll;
+    height: 72vh;
+    max-height: 72vh;
+    background-color: #f5f6f7;
+}
+
+.sk {
+    height: fit-content;
+}
+
+.reds {
+    color: red;
+}
